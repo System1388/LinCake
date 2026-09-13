@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinCake - Oops!</title>
+    
+    <!-- Tab Icon (Looks one folder up to find Images) -->
+    <link rel="icon" type="image/png" href="../Images/Icon.png">
+    
+    <!-- Matching Green CSS Styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f9f6;
+            color: #2e3b32;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Top Header */
+        header {
+            background-color: #ffffff;
+            border-bottom: 2px solid #e0ebd3;
+            padding: 15px 20px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .logo-img {
+            height: 35px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #27ae60;
+        }
+
+        /* Menu pointing back out to the home file */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4f5d53;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #27ae60;
+            text-decoration: underline;
+        }
+
+        /* Main Area with Center-aligned text */
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .oops-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .oops-section h2 {
+            font-size: 32px;
+            color: #1e6b3c;
+            margin-bottom: 15px;
+        }
+
+        .oops-section p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #4f5d53;
+            margin-bottom: 30px;
+        }
+
+        /* Back to Home Button */
+        .back-btn {
+            display: inline-block;
+            background-color: #2ecc71;
+            color: #ffffff;
+            border: 1px solid #27ae60;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .back-btn:hover {
+            background-color: #27ae60;
+        }
+
+        /* Bottom Footer */
+        footer {
+            border-top: 1px solid #e0ebd3;
+            padding: 25px 20px;
+            margin-top: 60px;
+            text-align: center;
+            font-size: 13px;
+            color: #7a8a7f;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <!-- Points one level up to grab the icon -->
+            <img src="../Images/Icon.png" alt="LinCake Logo" class="logo-img">
+            <h1>LinCake</h1>
+        </div>
+        <nav>
+            <ul>
+                <!-- Points one level up to grab the main page -->
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content Area -->
+    <main>
+        <div class="oops-section">
+            <h2>Oops!</h2>
+            <p>This page is not done yet!</p>
+            <!-- Easy layout return link -->
+            <a href="../index.html" class="back-btn">Return to Home</a>
+        </div>
+    </main>
+
+    <!-- Copyright -->
+    <footer>
+        <p>&copy; 2026 LinCake. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
