@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinCake</title>
+    
+    <!-- Tab Icon (Favicon) -->
+    <link rel="icon" type="image/png" href="Images/Icon.png">
+    
+    <!-- Basic Green CSS Styles -->
+    <style>
+        /* Document Setup */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f9f6; /* Very soft mint/green tint */
+            color: #2e3b32; /* Deep dark green-gray for readable text */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Top Header */
+        header {
+            background-color: #ffffff;
+            border-bottom: 2px solid #e0ebd3; /* Soft green-gray border */
+            padding: 15px 20px;
+        }
+
+        /* Container for Logo and Title */
+        .logo-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        /* Logo Image Styling */
+        .logo-img {
+            height: 35px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #27ae60; /* Medium forest green logo color */
+        }
+
+        /* Simple Horizontal Menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4f5d53;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #27ae60; /* Changes to green on hover */
+            text-decoration: underline;
+        }
+
+        /* Main Content Container */
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Content Sections Setup */
+        section {
+            padding: 40px 0; /* Adds spacing above and below each block */
+            text-align: center;
+        }
+
+        /* Separating borders between sections */
+        #about, #contact {
+            border-top: 1px solid #e0ebd3; 
+        }
+
+        section h2 {
+            font-size: 24px;
+            color: #1e6b3c; /* Darker green header */
+            margin-bottom: 15px;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        /* Basic Green Button Styling */
+        button[type="button"] {
+            background-color: #2ecc71; /* Bright green button background */
+            color: #ffffff;
+            border: 1px solid #27ae60;
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        button[type="button"]:hover {
+            background-color: #27ae60; /* Darker green on hover */
+        }
+
+        /* Bottom Footer */
+        footer {
+            border-top: 1px solid #e0ebd3;
+            padding: 25px 20px;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 13px;
+            color: #7a8a7f;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img src="Images/Icon.png" alt="LinCake Logo" class="logo-img">
+            <h1>LinCake</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="Pages/about.html">About</a></li>
+                <li><a href="Pages/contact.html">Contact</a></li>
+                <li><a href="https://github.com/System1388/System1388">Github</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to LinCake</h2>
+            <p>Programs, Websites, and more for free and less limited.</p>
+            <button type="button">Click Me</button>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>I make programs, websites, and more! all those programs, websites and more are less limited.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Have questions? Reach out to us at system1388.9@gmail.com or through our social networks.</p>
+        </section>
+    </main>
+
+    <!-- Copyright -->
+    <footer>
+        <p>&copy; 2026 LinCake. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
